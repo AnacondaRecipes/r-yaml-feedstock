@@ -10,8 +10,8 @@ package:
 source:
   fn: yaml_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/yaml_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/yaml/yaml_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/yaml_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/yaml/yaml_{{ version }}.tar.gz
   sha256: 75da4b175089b1634b532b5d4c4bf3eb72177c30c0a09e1333fc004315ae9af6
 
 
